@@ -4,20 +4,24 @@
 
 - Anatomia das Classes
 
-  - Declarações de variáveis e métodos
-    As variáveis podem iniciar com letra ou`_,` e pode conter `$_`.
+  - Declarações de variáveis e métodos:
 
-    Usamos a palavra-chave `final` para definir uma instrução final/constante ou não modificável.
+    - As variáveis podem iniciar com letra ou`_,` e pode conter `$_`.
 
-    Definimos a estrutura da variável como:
-    Tipo NomeBemDefinido = Atribuição(opcional)
+    - Usamos a palavra-chave `final` para definir uma instrução final/constante ou não modificável.
 
-    A estrutura dos métodos é:
-    TipoRetorno, NomeObjetivoNoInfinitivo e Parâmetro(s)(opcional)
+    - Definimos a estrutura da variável como:
+      Tipo NomeBemDefinido = Atribuição(opcional)
 
-  Concat é uma power class, serve para conectar textos.
+    - A estrutura dos métodos é:
+      TipoRetorno, NomeObjetivoNoInfinitivo e Parâmetro(s)(opcional)
 
-  Quando não temos retorno definimos o tipo como void, caso exista, indicamos o retorno com a palavra `return`.
+    - Concat é uma power class, serve para conectar textos.
+
+    - Quando não temos retorno definimos o tipo como void, caso exista, indicamos o retorno com a palavra `return`.
+
+  - Identação
+    É o termo usado para escrever o código do programa de forma hierárquico. Usamos como boa prática e organização, facilitando a visualização e o entendimento do programa.
 
 - Tipos e variáveis
 - Operadores
