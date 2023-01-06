@@ -41,5 +41,18 @@ public class MyClass {
    * // int somar(int numero1, int numero2)
    * // String formatarCep(long cep)
    * }
+   *
+   * // Nomenclaturas recomendadas
+   * double salarioMedio = 1500.23; // variavel bem definida
+   * String email = "aluno@escola.com"; // variavel no singular
+   * String [] emails = {"aluno@escola.com", "professor@escola.com"} // variavel
+   * no plural (array ou coleção)
+   * String meuNome = "JOSEPH" // variavel com mesmo padrão de nome
+   *
+   * // Nomenclatura de métodos
+   * somar(int numero1, int numero2){}
+   * abrirConexao(){}
+   * concluirProcessamento(){}
+   * findById(int id){}
    */
 }

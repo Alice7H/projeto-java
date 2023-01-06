@@ -28,6 +28,14 @@
 
     Podemos usar abreviações ou outros nomes de pacotes para determinadas finalidades. Ex: `org` para organizacional e `com` para comercial.
 
+  - Sugestões de nomenclaturas
+
+    - Seja claro, sem abreviações ou definição sem sentido.
+    - Use variável no singular, exceto se referir a uma coleção ou array.
+    - Defina um idioma único.
+
+    - Os métodos deverão ser nomeados como verbos, através da mistura de letras minúsculas com maiúsculas. As palavras terão os nomes minúsculas, com exceção da primeira letra de cada palavra composta a partir da segunda palavra.
+
 - Tipos e variáveis
 - Operadores
 - Métodos
