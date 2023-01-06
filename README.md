@@ -37,6 +37,38 @@
     - Os métodos deverão ser nomeados como verbos, através da mistura de letras minúsculas com maiúsculas. As palavras terão os nomes minúsculas, com exceção da primeira letra de cada palavra composta a partir da segunda palavra.
 
 - Tipos e variáveis
+
+  - Numéricos inteiros e decimais
+  - Tipos Lógicos
+  - Caracteres
+  - Objetos
+  - Diferenças entre variável e constante
+
+  Palavrar reservadas servem para representar tipos de dados básicos que precisam ser manipulados para a construção de programas, são conhecidos como `primitive types`.
+
+  Eles são:
+
+  - int, byte, short, long, float, double, boolean e char.
+
+  | Tipo    | Memória | Valor Mínimo               | Valor Máximo              |
+  | ------- | ------- | -------------------------- | ------------------------- |
+  | Byte    | 1 byte  | -128                       | -128                      |
+  | Short   | 2 byte  | -32,768                    | 32,767                    |
+  | Int     | 4 byte  | -2,147,483,648             | 2,147,483,647             |
+  | Long    | 8 byte  | -9,223,372,036,854,775,808 | 9,223,372,036,854,775,807 |
+  | Float   | 4 byte  | -3,4028E + 38              | 3,4028E + 38              |
+  | Double  | 8 byte  | -1,7976E + 308             | 1,7976E + 308             |
+  | Boolean | 1 byte  | true ou false              |
+  | Char    | 2 byte  | 1 carácter, valores ASCII  |
+
+  Variável é uma identificação de um espaço em memória utilizado pelo nosso programa, é composta por tipo de dados + identificação + valor atribuído.
+
+  Às vezes precisamos usar o `casting` para garantir que o valor de uma variável poderá ser atribuído um determinado tipo.
+
+  Constantes são valores armazenados em memória que não podem ser modificados depois de declarados, usamos a palavra `final` e por convenção, usamos a variável em caixa alta.
+
+  Variáveis do tipo String guardam referências a objetos/sequência de caracteres, e não um valor. Esta classe possui construtores que permitem inicializar objetos do tipo String de várias formas.
+
 - Operadores
 - Métodos
 - Escopo

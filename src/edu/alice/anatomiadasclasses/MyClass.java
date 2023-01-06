@@ -13,7 +13,6 @@ public class MyClass {
   }
 
   /*
-   * private static void test() {
    * // Variáveis
    * int numeroUm = 1;
    * int numero$um = 1;
@@ -40,7 +39,6 @@ public class MyClass {
    * // TipoRetorno NomeObjetivoNoInfinitivo Parâmetro(s)
    * // int somar(int numero1, int numero2)
    * // String formatarCep(long cep)
-   * }
    *
    * // Nomenclaturas recomendadas
    * double salarioMedio = 1500.23; // variavel bem definida
