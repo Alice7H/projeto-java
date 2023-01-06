@@ -1,3 +1,5 @@
+package edu.alice.anatomiadasclasses;
+
 public class BoletimEstudantil {
   // sem indentação
   // public static void main2(String[] args) {

@@ -23,6 +23,11 @@
   - Identação
     É o termo usado para escrever o código do programa de forma hierárquico. Usamos como boa prática e organização, facilitando a visualização e o entendimento do programa.
 
+  - Organizando arquivos
+    À medida que o sistema evolui, surgem novos arquivo e isso exige organização, realizamos isso através de uma estrutura de subdiretórios com arquivos através de pacotes(packages).
+
+    Podemos usar abreviações ou outros nomes de pacotes para determinadas finalidades. Ex: `org` para organizacional e `com` para comercial.
+
 - Tipos e variáveis
 - Operadores
 - Métodos

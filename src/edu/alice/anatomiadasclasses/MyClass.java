@@ -1,3 +1,5 @@
+package edu.alice.anatomiadasclasses;
+
 public class MyClass {
   public static void main(String[] args) {
     String primeiroNome = "Alice";
@@ -19,22 +21,22 @@ public class MyClass {
    * int numeroum = 1;
    * int numbero_long = 1;
    * int _numero1 = 1;
-   * 
+   *
    * // Uso de final
    * final String BR = "Brasil";
    * final double PI = 3.14;
    * final int ESTADOS_BRASILEIROS = 27;
-   * 
+   *
    * // Tipo NomeBemDefinido = Atribuição(opcional)
    * String meuNome = "Alice";
    * int anoFabricacao = 2022;
    * boolean verdadeira = true;
    * int idade;
    * double altura;
-   * 
+   *
    * idade = 23;
    * altura = 1.62;
-   * 
+   *
    * // TipoRetorno NomeObjetivoNoInfinitivo Parâmetro(s)
    * // int somar(int numero1, int numero2)
    * // String formatarCep(long cep)
