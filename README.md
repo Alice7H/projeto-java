@@ -80,6 +80,7 @@
   - Lógicos: `&& ||`
 
 - Métodos
+
   Questões importantes na construção de um método:
 
   - Proposta do método?
@@ -93,3 +94,11 @@
   O método é nomeado como verbo e com padrão camelCase.
 
 - Escopo
+
+  É a identificação da localização mais conveniente para a escrita de algoritmos necessário para o nosso programa.
+
+  Também pode ser entendido como o ambiente onde uma variável pode ser acessada.
+
+  - Escopo de classe (atributos da classe)
+  - Escopo de método (variável declarada dentro de um método)
+  - Escopo de fluxo (variável disponível apenas em algum bloco de código, dentro do loop for, pro exemplo).
