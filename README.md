@@ -172,3 +172,28 @@
   | extends | implements | extends determina que uma classe estende outra classe (herança) e implements determina que uma classe implementa uma interface            |
   | final   | abstract   | final determina fim de alteração de valor lógica comportamental, abstract em método exige que subclasses precisarão definir comportamento |
   | throws  | throw      | throws determina que um método pode lançar uma exceção, throw é a implementação que dispara a exceção                                     |
+
+- Java Doc:
+
+  Mais em [Java Básico](https://felipe-silva-aguiar.gitbook.io/dio-java/gitbook/summary)
+
+  [Documentação JavaSE7 - String] (https://docs.oracle.com/javase/7/docs/api/java/lang/String.html)
+
+  Tags:
+
+  - Podemos usar `tags` para informar sobre a versão, autor, data de início ou disponibilização de determinado recurso, além de parâmetros, definir o tipo de retorno de um método e se o método lança alguma exceção.
+
+  Comentários:
+
+  - Uma linha (one line), usa-se a barra `//`;
+  - Múltiplas linhas (multi line), `/**/`;
+  - Documentação: `/** */`.
+
+  Javadoc:
+
+  É um gerador de documentação criado pela Sun Microsystems para documentar a API dos programas em Java, a partir do código-fonte.
+
+  O resultado é expresso em HTML, constituído por algumas marcações simples.
+
+  Para criar nossa documentação, no terminal, execute o comando:
+  `javadoc -encoding UTF-8 -docencoding ISO-8859-1  -d ../docs  src/*.java`
