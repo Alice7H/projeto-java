@@ -102,3 +102,73 @@
   - Escopo de classe (atributos da classe)
   - Escopo de método (variável declarada dentro de um método)
   - Escopo de fluxo (variável disponível apenas em algum bloco de código, dentro do loop for, pro exemplo).
+
+- Palavras reservadas
+
+  São identificadores de uma linguagem que já possuem uma finalidade específica e não podem ser utilizados para nomear variáveis, classes, métodos ou atributos.
+
+  Java possui 52 palavras reservadas e são usadas em:
+
+  Em controle de pacotes:
+
+  - import: importa pacotes ou classes para dentro do código.
+  - package: especifica a que pacote todas as classes de um arquivo pertencem.
+
+  Modificadores de acesso:
+
+  - public: acesso a qualquer classe
+  - private: acesso apenas dentro da classe
+  - protect: acesso por classes no mesmo pacote e subclasses(herança).
+
+  Tipos primitivos:
+
+  - boolean, byte, char, double, float, int, long, short e void.
+
+  Modificadores de classes, variáveis ou métodos
+
+  - abstract: classes que não pode ser instanciada ou precisa ser implementado por uma subclasse não abstrata.
+  - class:especifica uma classe.
+  - extends: indica superclasse que a subclass está estendendo.
+  - final: impossibilita que a classe seja estendida, que um método seja sobrescrito ou que uma variável seja reinicializada.
+  - implements: indica as interfaces que uma classe irá implementar.
+  - interface: especifica uma interface.
+  - native: indica que um método está escrito em uma linguagem dependente de plataforma, como o C.
+  - new: instancia um novo objeto. chamando o seu construtor.
+  - static: faz um método ou variável pertencer à classe ao invés de às instâncias.
+  - strictfp: (em método ou classe) indica que os números de ponto flutuante seguirão as regras de um ponto flutuante em todas as expressões.
+  - synchronized: indica que um método só pode ser acessado por uma thread de cada vez.
+  - transient: impede serialização de campos.
+  - volatile: indica que uma variável pode ser alterada durante o uso de threads.
+
+  Controle de fluxo dentro de um bloco de código:
+
+  - break: sai do bloco de código em que está.
+  - case: escuta um bloco de código dependendo do teste do switch.
+  - continue: pula a execução do código que viria após essa linha e vai para a próxima passagem do loop.
+  - assert: teste uma expressão condicional para verificar uma suposição do programador.
+  - catch: declara o bloco de código usado para tratar uma exceção
+  - finally: bloco de código, após um try-catch, que é executado independentemente do fluxo de programa seguido ao lidar com uma exceção.
+  - throw: usado para passar uma exceção para o método que o chamou
+  - throws: indica que um método pode passar uma exceção para o método que o chamou.
+  - try: bloco de código que tentará ser executado, mas que pode causar exceção.
+
+  Variáveis de referência:
+
+  - super: refere-se a superclasse imediata
+  - this: refere-se a instância atual do objeto.
+
+  | Uso      | palavras                                                                     |
+  | -------- | ---------------------------------------------------------------------------- |
+  | arquivo  | package, import, static                                                      |
+  | classe   | public ou protected ou private + final ou abstract + extends ou implements   |
+  | método   | public ou protected ou private + static ou final ou abstract + void e return |
+  | atributo | public ou protected ou private + static ou final + tipo primitivo            |
+
+  Palavras "opostas":
+
+  | Palavra | Palavra    | Explicação                                                                                                                                |
+  | ------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+  | package | import     | package determina o diretório real da classe, o import informa de onde será importado a classe de um pacote.                              |
+  | extends | implements | extends determina que uma classe estende outra classe (herança) e implements determina que uma classe implementa uma interface            |
+  | final   | abstract   | final determina fim de alteração de valor lógica comportamental, abstract em método exige que subclasses precisarão definir comportamento |
+  | throws  | throw      | throws determina que um método pode lançar uma exceção, throw é a implementação que dispara a exceção                                     |
