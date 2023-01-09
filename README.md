@@ -80,4 +80,16 @@
   - Lógicos: `&& ||`
 
 - Métodos
+  Questões importantes na construção de um método:
+
+  - Proposta do método?
+  - Retorno esperado?
+  - Parâmetros necessários?
+  - Possui riscos de exceções? (throws Exception)
+  - Visibilidade do método?
+
+  As ações das aplicações são consideradas métodos/funções ou sub-rotinas disponíveis dentro das classes.
+
+  O método é nomeado como verbo e com padrão camelCase.
+
 - Escopo
