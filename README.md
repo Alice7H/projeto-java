@@ -70,5 +70,14 @@
   Variáveis do tipo String guardam referências a objetos/sequência de caracteres, e não um valor. Esta classe possui construtores que permitem inicializar objetos do tipo String de várias formas.
 
 - Operadores
+
+  São símbolos especiais que tem um significado próprio para a linguagem e estão associados a determinadas operações.
+
+  - Aritméticos: `+ - * / %`
+  - Unários: `+ - ++ -- !`, valor positivo, negativo, incremento, decremento e negação.
+  - Ternário: condição + `? :`
+  - Relacionais: `> < <= >= == != === !==`
+  - Lógicos: `&& ||`
+
 - Métodos
 - Escopo
