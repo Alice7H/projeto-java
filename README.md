@@ -197,3 +197,35 @@
 
   Para criar nossa documentação, no terminal, execute o comando:
   `javadoc -encoding UTF-8 -docencoding ISO-8859-1  -d ../docs  src/*.java`
+
+- Terminal e Argumentos
+
+  Com a JVM devidamente configurada, podemos criar um executável do nosso programa e disponibilizar o instalador para qualquer sistema operacional. Faremos isso via terminal.
+
+  - Configuração da pasta bin
+
+    O Visual Studio Code não cria automaticamente a pasta bin, o arquivo .classpath e o arquivo .settings para a linguagem java, se o seu projeto for recém-criado no VS Code através do comando Java: `Create Java Project...`. Este comando criará um novo projeto sem ferramentas de compilação. (Sem Maven e Gradle). Nesse caso, os arquivos como .classpath, .project, etc... ficarão ocultos no caminho de armazenamento do espaço de trabalho, o que é intencional, pois serve para o usuário se concentrar apenas no próprio código.
+
+    Se você quiser ver a pasta bin, há uma configuração chamada `java.project.outputPath`, você pode definir um caminho relativo para essa configuração, então a pasta de saída será mostrada explicitamente em seu projeto.
+
+    Para isso, você pode seguir os passos no VS Code:
+
+    - Na aba View -> Command Palette -> Preferences: Open User Settings(JSON).
+    - Ou use o atalho Ctrl + Shift + P -> Preferences: Open User Settings(JSON).
+    - Adicione: "java.project.outputPath": "bin"
+
+  - Execução de arquivo no terminal
+
+    Com o diretório apontado para a pasta bin, podemos rodar o comando `java MinhaClasse` para executar o arquivo MinhaClasse.class (gerado a partir da criação do MinhaClasse.java).
+
+  - Argumentos
+
+    Quando executamos uma classe que contenha o método main, o mesmo permite que passemos um array [] de argumentos do tipo String. Logo podemos após a definição da classe a ser executada informar estes parâmetros, exemplo: `java MinhaClasse agumentoUm argumentoDois`.
+
+    Podemos adicionar `args` como array e configurar parâmetros no arquivo `launch.json` para rodar as classes via IDE.
+
+  - Scanner
+
+    Podemos receber dados digitados pelo usuário, e outra maneira de fazer isso é via Scanner.
+
+    A classe Scanner permite que o usuário tenha uma interação mais assertiva com o nosso programa, além de mais intuitiva aos usuários.

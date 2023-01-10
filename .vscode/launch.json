@@ -1,0 +1,83 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch AboutMe2",
+      "request": "launch",
+      "mainClass": "AboutMe2",
+      "projectName": "projeto-java_d40e499b"
+    },
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch AboutMe",
+      "request": "launch",
+      "mainClass": "AboutMe",
+      "projectName": "projeto-java_d40e499b",
+      "args": [
+        "Alice",
+        "Hata",
+        "29",
+        "1.61"
+      ]
+    },
+    {
+      "type": "java",
+      "name": "Launch App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "projeto-java_d40e499b"
+    },
+    {
+      "type": "java",
+      "name": "Launch MinhaClasse",
+      "request": "launch",
+      "mainClass": "MinhaClasse",
+      "projectName": "projeto-java_d40e499b"
+    },
+    {
+      "type": "java",
+      "name": "Launch BoletimEstudantil",
+      "request": "launch",
+      "mainClass": "edu.alice.anatomiadasclasses.BoletimEstudantil",
+      "projectName": "projeto-java_d40e499b"
+    },
+    {
+      "type": "java",
+      "name": "Launch MyClass",
+      "request": "launch",
+      "mainClass": "edu.alice.anatomiadasclasses.MyClass",
+      "projectName": "projeto-java_d40e499b"
+    },
+    {
+      "type": "java",
+      "name": "Launch Usuario",
+      "request": "launch",
+      "mainClass": "edu.alice.metodos.Usuario",
+      "projectName": "projeto-java_d40e499b"
+    },
+    {
+      "type": "java",
+      "name": "Launch Operadores",
+      "request": "launch",
+      "mainClass": "edu.alice.operadores.Operadores",
+      "projectName": "projeto-java_d40e499b"
+    },
+    {
+      "type": "java",
+      "name": "Launch TiposVariaveis",
+      "request": "launch",
+      "mainClass": "edu.alice.tiposevariaveis.TiposVariaveis",
+      "projectName": "projeto-java_d40e499b"
+    }
+  ]
+}
